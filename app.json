@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "One Take Connect",
+    "slug": "one-take-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./frontend/src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./frontend/src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.onetake.connect"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./frontend/src/assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.onetake.connect"
+    },
+    "web": {
+      "favicon": "./frontend/src/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id"
+      }
+    }
+  }
+}
